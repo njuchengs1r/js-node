@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./determine-the-data-type.js"></script>
+</head>
+
+<body>
+    <script>
+        const datas = [1, 'hello', [1, 2, 3], true, undefined, null, function () {}, () => {}, {}];
+        datas.forEach(item => {
+            console.log(item, '===>', getType(item));
+        })
+        console.log();
+        datas.forEach(item => {
+            console.log(item, '===>', getType_2(item));
+        })
+    </script>
+</body>
+
+</html>
