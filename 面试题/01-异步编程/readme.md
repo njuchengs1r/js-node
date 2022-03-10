@@ -35,8 +35,11 @@ console.log('end');
 ```
 >输出结果
 >start
+>
 >async start
+>
 >end
+>
 >async end
 
 > 在一个事件循环中，同步代码先执行
